@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test-project
+    username: postgres
+    password: test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+amenities.service.url: https://d137a962-e15c-4a20-8269-85ebab1c6324.mock.pstmn.io/ammenities
